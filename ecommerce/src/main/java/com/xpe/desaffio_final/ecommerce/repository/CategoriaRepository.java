@@ -6,12 +6,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import com.xpe.desaffio_final.ecommerce.modelo.Categoria;
-
-import br.com.alura.unicommerce.vo.RelatorioDeVendasCategoriaVo;
+import com.xpe.desaffio_final.ecommerce.vo.RelatorioDeVendasCategoriaVo;
 
 public interface CategoriaRepository extends JpaRepository<Categoria, Long> {
 	
-	@Query( "SELECT new br.com.alura.unicommerce.vo.RelatorioDeVendasCategoriaVo(" 
+	@Query( "SELECT new com.xpe.desaffio_final.ecommerce.vo.RelatorioDeVendasCategoriaVo(" 
 			+ "categoria.nome, " 
 			+ "SUM(item.quantidade) as quantidade, " 
 			+ "SUM(item.quantidade * (item.precoUnitario - item.desconto)) as montante) " 

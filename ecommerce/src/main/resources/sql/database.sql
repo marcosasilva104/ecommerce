@@ -1,4 +1,4 @@
-CREATE DATABASE unicommerce
+CREATE DATABASE ecommerce
 
 CREATE TABLE `categoria` (
   `ID` int NOT NULL AUTO_INCREMENT,

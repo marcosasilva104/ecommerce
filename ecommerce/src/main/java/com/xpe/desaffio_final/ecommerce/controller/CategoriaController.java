@@ -20,9 +20,9 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.xpe.desaffio_final.ecommerce.dto.CategoriaDTO;
 import com.xpe.desaffio_final.ecommerce.dto.DadosListagemCategoria;
+import com.xpe.desaffio_final.ecommerce.service.CategoriaService;
+import com.xpe.desaffio_final.ecommerce.vo.RelatorioDeVendasCategoriaVo;
 
-import br.com.alura.unicommerce.service.CategoriaService;
-import br.com.alura.unicommerce.vo.RelatorioDeVendasCategoriaVo;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;

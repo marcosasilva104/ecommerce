@@ -1,6 +1,6 @@
 package com.xpe.desaffio_final.ecommerce.service.validation;
 
-import jakarta.validation.Payload;
+import com.auth0.jwt.interfaces.Payload;
 
 public @interface UserUpdateValid {
 	String message() default "Validation error";

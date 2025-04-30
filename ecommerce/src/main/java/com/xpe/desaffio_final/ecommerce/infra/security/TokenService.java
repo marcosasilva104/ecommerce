@@ -16,7 +16,7 @@ import com.xpe.desaffio_final.ecommerce.modelo.Usuario;
 @Service
 public class TokenService {
 
-	private static final String ISSUER = "API Unicommerce";
+	private static final String ISSUER = "API Ecommerce";
 	
 	@Value("${api.security.token.secret}")
     private String secret;

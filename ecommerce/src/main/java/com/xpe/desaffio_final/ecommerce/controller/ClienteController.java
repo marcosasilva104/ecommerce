@@ -26,9 +26,9 @@ import com.xpe.desaffio_final.ecommerce.dto.DadosListagemCliente;
 import com.xpe.desaffio_final.ecommerce.dto.UsuarioLoginDTO;
 import com.xpe.desaffio_final.ecommerce.modelo.Cliente;
 import com.xpe.desaffio_final.ecommerce.modelo.Usuario;
+import com.xpe.desaffio_final.ecommerce.service.ClienteService;
+import com.xpe.desaffio_final.ecommerce.service.UsuarioService;
 
-import br.com.alura.unicommerce.service.ClienteService;
-import br.com.alura.unicommerce.service.UsuarioService;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;

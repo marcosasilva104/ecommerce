@@ -1,5 +1,7 @@
 package com.xpe.desaffio_final.ecommerce.dto;
 
+import com.xpe.desaffio_final.ecommerce.service.validation.UserInsertValid;
+
 @UserInsertValid
 public class UsuarioInsertDTO extends UsuarioDTO {
 	private static final long serialVersionUID = 1L;

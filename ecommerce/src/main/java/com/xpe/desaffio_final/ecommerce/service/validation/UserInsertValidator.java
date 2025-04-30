@@ -5,6 +5,13 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.xpe.desaffio_final.ecommerce.controller.exeptions.FieldMessage;
+import com.xpe.desaffio_final.ecommerce.dto.UsuarioInsertDTO;
+import com.xpe.desaffio_final.ecommerce.repository.UsuarioRepository;
+
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
+
 public class UserInsertValidator implements ConstraintValidator<UserInsertValid, UsuarioInsertDTO> {
 	
 	@Autowired

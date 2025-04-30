@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.xpe.desaffio_final.ecommerce.dto.DadosAutenticacao;
+import com.xpe.desaffio_final.ecommerce.infra.security.DadosTokenJWT;
 import com.xpe.desaffio_final.ecommerce.modelo.Usuario;
 
-import br.com.alura.unicommerce.infra.security.DadosTokenJWT;
 import jakarta.validation.Valid;
 
 @RestController

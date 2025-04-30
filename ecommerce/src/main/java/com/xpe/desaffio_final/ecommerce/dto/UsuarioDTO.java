@@ -2,6 +2,11 @@ package com.xpe.desaffio_final.ecommerce.dto;
 
 import java.io.Serializable;
 
+import com.xpe.desaffio_final.ecommerce.modelo.Usuario;
+
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+
 public class UsuarioDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 

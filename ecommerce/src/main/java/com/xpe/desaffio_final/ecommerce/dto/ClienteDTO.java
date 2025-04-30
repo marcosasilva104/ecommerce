@@ -2,9 +2,10 @@ package com.xpe.desaffio_final.ecommerce.dto;
 
 import java.util.Optional;
 
-import org.antlr.v4.runtime.misc.NotNull;
-
 import com.xpe.desaffio_final.ecommerce.modelo.Cliente;
+
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotBlank;
 
 public record ClienteDTO(Long id,
 
@@ -14,7 +15,7 @@ public record ClienteDTO(Long id,
 
 		String telefone,
 
-		@NotNull(message = "{endereco.obrigatorio}") 
+		//@NotNull(message = "{endereco.obrigatorio}") 
 		@Valid EnderecoDTO endereco,
 
 		@Valid UsuarioLoginDTO usuario) {

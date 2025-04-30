@@ -10,13 +10,13 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import com.xpe.desaffio_final.ecommerce.dto.ProdutoDTO;
+import com.xpe.desaffio_final.ecommerce.form.ProdutoForm;
 import com.xpe.desaffio_final.ecommerce.modelo.Produto;
 import com.xpe.desaffio_final.ecommerce.repository.CategoriaRepository;
 import com.xpe.desaffio_final.ecommerce.repository.ProdutoRepository;
 import com.xpe.desaffio_final.ecommerce.service.exceptions.DatabaseException;
 import com.xpe.desaffio_final.ecommerce.service.exceptions.ResourceNotFoundException;
 
-import br.com.alura.unicommerce.form.ProdutoForm;
 import jakarta.persistence.EntityNotFoundException;
 
 @Service

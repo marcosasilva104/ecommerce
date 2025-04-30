@@ -1,4 +1,4 @@
-package br.com.alura.unicommerce.simulando;
+package com.xpe.desaffio_final.ecommerce.simulando;
 
 public class CadastroDadaos {
 

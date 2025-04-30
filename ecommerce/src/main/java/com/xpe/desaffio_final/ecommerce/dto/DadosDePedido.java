@@ -9,6 +9,8 @@ import org.antlr.v4.runtime.misc.NotNull;
 import com.xpe.desaffio_final.ecommerce.modelo.Cliente;
 import com.xpe.desaffio_final.ecommerce.modelo.ItemDePedido;
 import com.xpe.desaffio_final.ecommerce.modelo.Pedido;
+import com.xpe.desaffio_final.ecommerce.service.ClienteService;
+import com.xpe.desaffio_final.ecommerce.service.ProdutoService;
 
 public record DadosDePedido(Long clienteId, 
 		@NotNull BigDecimal totalPedido,

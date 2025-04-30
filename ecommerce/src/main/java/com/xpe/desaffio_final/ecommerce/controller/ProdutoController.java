@@ -23,11 +23,11 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.xpe.desaffio_final.ecommerce.dto.ProdutoDTO;
+import com.xpe.desaffio_final.ecommerce.form.ProdutoForm;
 import com.xpe.desaffio_final.ecommerce.modelo.Produto;
+import com.xpe.desaffio_final.ecommerce.service.CategoriaService;
+import com.xpe.desaffio_final.ecommerce.service.ProdutoService;
 
-import br.com.alura.unicommerce.form.ProdutoForm;
-import br.com.alura.unicommerce.service.CategoriaService;
-import br.com.alura.unicommerce.service.ProdutoService;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;

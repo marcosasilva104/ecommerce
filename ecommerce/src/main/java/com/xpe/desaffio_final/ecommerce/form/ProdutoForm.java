@@ -1,11 +1,12 @@
-package br.com.alura.unicommerce.form;
+package com.xpe.desaffio_final.ecommerce.form;
 
 import java.math.BigDecimal;
 
 import org.hibernate.validator.constraints.Length;
 
-import br.com.alura.unicommerce.modelo.Produto;
-import br.com.alura.unicommerce.service.CategoriaService;
+import com.xpe.desaffio_final.ecommerce.modelo.Produto;
+import com.xpe.desaffio_final.ecommerce.service.CategoriaService;
+
 import jakarta.validation.constraints.Positive;
 
 public class ProdutoForm {
